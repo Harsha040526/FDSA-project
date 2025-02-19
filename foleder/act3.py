@@ -6,3 +6,4 @@ def rec(n) :
     return(r + rec(n//10))  
 n = int(input("enter a number")) 
 print(rec(n))
+  
